@@ -7,6 +7,12 @@
 > 📚 참고 문헌  
 > * *Programming: A Modern Approach, 2nd ed.* by K.N. King
 
+## 🔍 C++
+* 기초 쌓기
+
+> 📚 참고 문헌
+> * *A Tour of C++* by Bjarne Stroustrup
+
 ## ☕ Java 
 * 변수
   * [변수와_상수](Java/02_변수/02-01_변수와_상수.md)
