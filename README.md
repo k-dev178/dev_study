@@ -8,10 +8,20 @@
 > * *Programming: A Modern Approach, 2nd ed.* by K.N. King
 
 ## 🔍 C++
-* 기초 쌓기
+* C++로의 전환
+  * C언어 기반의 C++ 1
+    * printf와 scanf를 대신하는 입출력 방식
+    * 함수 오버로딩(Function Overloading)
+    * 매개변수의 디폴트 값(Default Value)
+    * 인라인(inline) 함수
+    * 이름공간(namespace)에 대한 소개
+    * OOP 단계별 프로젝트 01단계
+  * C언어 기반의 C++ 1
+
+* 객체지향의 도입
 
 > 📚 참고 문헌
-> * *A Tour of C++* by Bjarne Stroustrup
+> * *윤성우의 열혈 C++ 프로그래밍* by 윤성우
 
 ## ☕ Java 
 * 변수
