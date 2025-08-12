@@ -87,7 +87,7 @@ std::cout << ' ' << 3.14 << std::endl;
 - 키보드 입력에는 `std::cin`과 `>>` 연산자가 사용된다.
 - 변수 선언 위치는 함수 내 어디든 가능하다.
 
-[2_SimpleAdder.cpp](codes/2_SimpleAdder.cpp)
+> [2_SimpleAdder.cpp](codes/2_SimpleAdder.cpp)
 ```cpp
 #include <iostream>
 
@@ -149,7 +149,7 @@ int main()
   - 두 번째 입력 값 → `변수2`
   - 입력 구분은 공백(스페이스, 탭, Enter)로 처리됨
 
-[BetweenAdder.cpp](codes/3_BetweenAdder.cpp)
+> [3_BetweenAdder.cpp](codes/3_BetweenAdder.cpp)
 ```cpp
 #include <iostream>
 
@@ -181,7 +181,7 @@ int main()
 ---
 
 # 📝 배열 기반의 문자열 입출력
-[4_StringIO.cpp](codes/4_StringIO.cpp)
+> [4_StringIO.cpp](codes/4_StringIO.cpp)
 ```cpp
 #include <iostream>
 
