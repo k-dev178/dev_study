@@ -4,7 +4,7 @@ C++도 "Hello world" 출력 예제로 시작한다. </br>
 C 버전과 조금 다르지만, 초보자는 먼저 눈에 익히고 외우는 과정이 정상적이다.
 
 "Hello World"를 출력하는 예제를 실행해 보자.
-> [1_Hello_World.cpp](1_Hello_World.cpp)
+> [1_Hello_World.cpp](codes/1_Hello_World.cpp)
 ```cpp
 #include <iostream>
 
@@ -87,7 +87,7 @@ std::cout << ' ' << 3.14 << std::endl;
 - 키보드 입력에는 `std::cin`과 `>>` 연산자가 사용된다.
 - 변수 선언 위치는 함수 내 어디든 가능하다.
 
-[SimpleAdder.cpp]
+[SimpleAdder.cpp](codes/SimpleAdder.cpp)
 ```cpp
 #include <iostream>
 
@@ -149,7 +149,7 @@ int main()
   - 두 번째 입력 값 → `변수2`
   - 입력 구분은 공백(스페이스, 탭, Enter)로 처리됨
 
-[BetweenAdder.cpp]
+[BetweenAdder.cpp](codes/BetweenAdder.cpp)
 ```cpp
 #include <iostream>
 
@@ -181,7 +181,7 @@ int main()
 ---
 
 # 📝 배열 기반의 문자열 입출력
-[StringlO.cpp]
+[StringlO.cpp](codes/StringlO.cpp)
 ```cpp
 #include <iostream>
 
