@@ -11,7 +11,7 @@
 * C++로의 전환
   * C언어 기반의 C++ 1
     * [printf와 scanf를 대신하는 입출력 방식](CPP/1_C++로의_전환/1-1_C언어_기반의_C++_1/1-1-1_printf와_scanf를_대신하는_입출력_방식.md)
-    * 함수 오버로딩(Function Overloading)
+    * [함수 오버로딩(Function Overloading)](CPP/1_C++로의_전환/1-1_C언어_기반의_C++_1/1-1-2_함수_오버로딩.md)
     * 매개변수의 디폴트 값(Default Value)
     * 인라인(inline) 함수
     * 이름공간(namespace)에 대한 소개
