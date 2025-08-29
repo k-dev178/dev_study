@@ -210,3 +210,6 @@ int main()
 ```
 - 구조는 앞선 예제와 같고, 대상만 **문자열**이다.
 - C++에서도 배열 기반의 문자열 입출력이 가능하다.
+
+# 연습문제.
+<img width="478" height="598" alt="스크린샷 2025-08-29 오전 10 35 15" src="https://github.com/user-attachments/assets/bf1fef69-2c9a-415e-9e72-c7b06cfef7f6" />
