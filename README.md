@@ -45,7 +45,7 @@
 > *꼼꼼한 재은 씨의 Swift: 문법편 by 이재은
 
 ## 🚀 Javascript
-### 📚 도서
-> [모던 자바스크립트 Deep Dive by 이웅모](language/javascript/목차.md)
+### 💻 웹페이지
+> [PoiemaWeb](./language/javascript/poiemaweb/_0_목차.md)
 ### 강의 (전체 맥락 파악용)
 > [노마드코더 - 바닐라 JS로 크롬 앱 만들기](https://github.com/k-dev178/momentum)
