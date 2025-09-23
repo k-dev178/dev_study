@@ -137,3 +137,39 @@ alphabet.push('f');
 
 ---
 
+# 2.6 Objects
+어쩐 객체의 값을 의미와 함께 저장하고 싶을 때 사용.
+
+```javascript
+const player = ["nico",1212,false,"little bit"];
+```
+이것도 나쁘지 않지만, 각 값의 의미를 알기 힘듦.
+
+만약 object를 사용한다면.
+```javascript
+const player = {
+    name: "nico",
+    points: 1212,
+    handsome: false,
+    fat: "little bit"
+};
+```
+이런식으로 데이터를 저장 가능.
+
+## 데이터 출력
+```javascript
+console.log(player.name);
+console.log(player["name"];
+```
+
+## 데이터 추가
+```javascript
+const player = {
+    name : tomato,
+    color : red,
+    food : true
+};
+
+player.koreanName = "토마토";
+console.log(player.koreanName);
+```
