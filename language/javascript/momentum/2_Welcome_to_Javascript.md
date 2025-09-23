@@ -174,7 +174,7 @@ player.koreanName = "토마토";
 console.log(player.koreanName);
 ```
 ---
-# 2.7 Functions
+# 2.7~2.8 Functions
 함수는 다음과 같이 선언된다.
 ```javascript
 function 함수명(){
