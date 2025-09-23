@@ -46,6 +46,6 @@
 
 ## 🚀 Javascript
 ### 💻 웹페이지
-> [PoiemaWeb](./language/javascript/poiemaweb/_0_목차.md)
+> [Modern_Javacript](./language/javascript/book_modern/_0_목차.md)
 ### 강의 (전체 맥락 파악용)
-> [노마드코더 - 바닐라 JS로 크롬 앱 만들기](https://github.com/k-dev178/momentum)
+> [노마드코더 - 바닐라 JS로 크롬 앱 만들기](language/javascript/momentum/0_목차.md)
