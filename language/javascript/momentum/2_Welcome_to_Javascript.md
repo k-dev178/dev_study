@@ -173,3 +173,43 @@ const player = {
 player.koreanName = "토마토";
 console.log(player.koreanName);
 ```
+---
+# 2.7 Functions
+함수는 다음과 같이 선언된다.
+```javascript
+function 함수명(){
+    코드;
+```
+
+함수는 다음과 같이 실행된다.
+```javascript
+함수명();
+```
+
+다음은 예시이다.
+```javascript
+function sayHello1(){
+    console.log("Hello!");
+}
+
+sayHello1();
+
+function sayHello2(a){
+    console.log("Hello!",a);
+}
+
+sayHello2("nico");
+``` 
+
+객체 안에도 함수를 넣을 수 있다.
+```javascript
+const player ={
+    name: "nico",
+    sayHello: function(name){
+        console.log("Hello",name + "!");
+    },
+};
+
+player.sayHello(player.name);
+```
+---
