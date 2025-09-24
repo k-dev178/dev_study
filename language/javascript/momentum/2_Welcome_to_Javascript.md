@@ -213,3 +213,89 @@ const player ={
 player.sayHello(player.name);
 ```
 ---
+# 2.11 Returns
+기존에 쓰던 방식은 함수를 실행하면 출력하면 끝이였음.
+```javascript
+const cul = {
+    plus: function(a,b){
+        console.log(a+b)
+    },
+    minus: function(a,b){
+        console.log(a+b)
+    }
+};
+
+cul.plus(1,2);
+```
+이런식으로 함수를 만들면 자유롭게 데이터를 출력하는게 불가능하고, 여러가지 문제가 생김.
+
+만약 리턴을 쓰면.
+```javascript
+const cul = {
+    plus: function(a,b){
+        return a+b;
+    },
+    minus: function(a,b){
+        return a-b;
+    }
+};
+
+const div1 = document.getElementById("div1");
+const div2 = document.getElementById("div2");
+
+div1.textContent = cul.plus(1,2);
+div2.textContent = "3 - 2 = " + cul.minus(5,2);
+```
+재사용도 쉽고, 데이터 출력도 자유롭게 가능.
+---
+# 2.13 Conditionals
+## int형으로 입력받기
+```javascript
+const age = prompt("나이"); //prompt는 창을 열어 사용자에게 값을 받음.
+```
+age에 나이 15를 받으면 age의 타입은 기본적으로 string이다.
+이걸 바꿔주는 코드는 다음과 같다.
+```javascript
+const age = parseInt(prompt("나이"));
+```
+만약 저기에 문자나 문자열을 넣고 tpyeof로 타입을 출력하면 NaN(not a number)가 나온다.
+
+그 아래에
+```javascript
+console.log(isNaN(age));
+```
+로 출력하면. age가 NaN인지 아닌지 boolean으로 출력됨.
+이제 이걸로 조건문 만들 수 있음.
+
+## 조건문 만들기
+```javascript
+if(){
+
+} else{
+
+}
+```
+조건문은 대충 이렇게 만들어지는데, ()안 값이 true이면 if{}안 코드가 실행되는거고, 아니면 else{}코드가 실행됨.
+```javascript
+const age = parseInt(prompt("나이"));
+
+if(isNaN(age)){
+    console.log("문자임");
+}else{
+    console.log("숫자임");
+}
+```
+그래서 이런것도 만들 수 있음.
+
+근데 
+```javascript
+1 < 2 // true
+2 > 4 // false
+
+1 < 2 && 2 > 4 // true and false = false
+1 < 2 || 2 > 4 // true or false = false
+
+1 != 2 // true
+1 == 2 // false
+```
+이런것도 사실 boolean이라서 이걸로 if문 만들 수 있음.
