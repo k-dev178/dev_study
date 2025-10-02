@@ -30,7 +30,7 @@
 
 ## python
 ### 강의 (전체 맥락 파악용)
-> [노마드코더 - Python으로 웹 스크래퍼 만들기](language/python/)
+> [노마드코더 - Python으로 웹 스크래퍼 만들기](language/python/0_목차.md)
 
 ## ☕ Java 
 * 변수
