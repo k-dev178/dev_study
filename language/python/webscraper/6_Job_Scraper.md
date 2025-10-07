@@ -17,7 +17,7 @@
 ```py
 import requests
 
-url = "https://weworkremotely.com/"
+url = "https://weworkremotely.com/categories/remote-full-stack-programming-jobs"
 response = requests.get(url)
 
 print(response.content)
@@ -29,7 +29,7 @@ print(response.content)
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://weworkremotely.com/"
+url = "https://weworkremotely.com/categories/remote-full-stack-programming-jobs"
 response = requests.get(url)
 
 soup = BeautifulSoup(response.content, "html.parser")
